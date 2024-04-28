@@ -49,8 +49,8 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.anggastudio.'
-                artifactId = 'jitpack-android-34'
-                version = '0.0.1'
+                artifactId = 'jitpack-android-34xx'
+                version = '0.0.2'
                 pom {
                     description = 'android library for testing publication on jitpack for android api 34'
                 }
