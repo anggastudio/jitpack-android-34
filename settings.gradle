@@ -8,6 +8,7 @@ pluginManagement {
             }
         }
         mavenCentral()
+        mavenLocal()
         gradlePluginPortal()
     }
 }
@@ -16,9 +17,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
     }
 }
 
 rootProject.name = "jitpack-android-34"
 include ':app'
-include ':jitpack-android-34'
+include ':jitpack-android-34xx'
